@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-fadeInUp: fadeInUp 0.7s ease-out forwards;
+  --font-sans: 'DM Sans', sans-serif;
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
